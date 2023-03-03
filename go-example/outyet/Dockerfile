@@ -1,2 +1,2 @@
-FROM golang:1.19.5-buster
+FROM golang:1.19.6-buster
 EXPOSE 8080
