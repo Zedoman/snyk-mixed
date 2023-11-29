@@ -15,7 +15,7 @@ RUN go build -mod=vendor -o bin/hello
 
 # -- Stage 2 -- #
 # Create the final environment with the compiled binary.
-FROM python:3.12.0a5-slim
+FROM python:3.13.0a2-slim
 # Install any required dependencies.
 RUN apk --no-cache add ca-certificates
 WORKDIR /root/
