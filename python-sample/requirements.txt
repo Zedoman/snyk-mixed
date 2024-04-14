@@ -1,3 +1,4 @@
 nose
 sphinx
 requests==2.23.0
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
