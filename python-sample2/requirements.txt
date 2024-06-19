@@ -3,3 +3,4 @@ sphinx
 requests==2.23.0
 dnspython==1.16.0
 django==1.9.10
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
